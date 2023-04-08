@@ -2,7 +2,7 @@
 
 <h1 align="center">
   <br>
-  <img src="https://github.com/iPatrushevSergey/bulka-shop/blob/main/images/bulka.webp"></a>
+  <img src="https://github.com/iPatrushevSergey/bulka-shop/blob/main/images/bulka.jpg"></a>
 </h1>
 
 # bulka-shop
