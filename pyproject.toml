@@ -16,6 +16,7 @@ extend_skip = [
     '.json',
     ]
 known_local_folder = [
+    'users',
     ]
 
 [tool.flake8]

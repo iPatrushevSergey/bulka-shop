@@ -36,11 +36,12 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'bulka_shop.urls'
 
+TEMLATES_DIR = BASE_DIR.joinpath('templates')
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-            BASE_DIR.joinpath('templates'),
+            TEMLATES_DIR,
         ],
         'APP_DIRS': True,
         'OPTIONS': {
@@ -97,6 +98,11 @@ USE_I18N = True
 USE_TZ = True
 
 STATIC_URL = 'static/'
+STATICFILES_DIRS = [BASE_DIR.joinpath('static')]
+# STATIC_ROOT = BASE_DIR.joinpath('static')
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR.joinpath('media')
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
