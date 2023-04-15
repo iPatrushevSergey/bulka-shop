@@ -4,7 +4,8 @@ from users.models import User
 
 class CustomUserCreationForm(UserCreationForm):
     """
-    Extends the form to work with the users custom model.
+    Expands the user creation form to be able to work with a custom
+    user model.
     """
 
     class Meta:
@@ -14,7 +15,7 @@ class CustomUserCreationForm(UserCreationForm):
 
 class CustomUserChangeForm(UserChangeForm):
     """
-    Extends the form to work with the users custom model.
+    Expands the user editing form to be able to work with a custom user model.
     """
 
     class Meta:
